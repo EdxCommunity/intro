@@ -1,4 +1,8 @@
   --font-family: "Poppins", system-ui;
+
+body {
+	font-family: var(--font-family);
+}
 .wrapper {
 	display: -webkit-box;
 	display: -ms-flexbox;
