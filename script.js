@@ -6,12 +6,12 @@ function annoy(inputtxt) {
 	var numbers = "68351";
 	var kontol = "awok";
 	if (!inputtxt.value.match(numbers)) {
-		inputtxt.value = [];
-		error.innerHTML = "Please insert characters only";
+		error.innerHTML = "Wrong Code";
 	} else {
 		if (!inputtxt.value.match(kontol)) {
 			inputtxt.value = [];
 			awoked.innerHTML = "Download Intro";
+			error.innerHTML = "The code is correct, please download the intro below";
 		}
 	}
 }
